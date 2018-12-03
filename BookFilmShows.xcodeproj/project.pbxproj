@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A742AD731E6A991500DEE57B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742AD721E6A991500DEE57B /* AppDelegate.swift */; };
+		A742AD751E6A991500DEE57B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742AD741E6A991500DEE57B /* ViewController.swift */; };
+		A742AD781E6A991500DEE57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A742AD761E6A991500DEE57B /* Main.storyboard */; };
+		A742AD7A1E6A991500DEE57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A742AD791E6A991500DEE57B /* Assets.xcassets */; };
+		A742AD7D1E6A991500DEE57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A742AD7B1E6A991500DEE57B /* LaunchScreen.storyboard */; };
+		A742AD821E6A991500DEE57B /* BookFilmShows WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A742AD811E6A991500DEE57B /* BookFilmShows WatchKit App.app */; };
+		A742AD881E6A991500DEE57B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A742AD861E6A991500DEE57B /* Interface.storyboard */; };
+		A742AD8A1E6A991500DEE57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A742AD891E6A991500DEE57B /* Assets.xcassets */; };
+		A742AD911E6A991500DEE57B /* BookFilmShows WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A742AD901E6A991500DEE57B /* BookFilmShows WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A742AD981E6A991500DEE57B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742AD971E6A991500DEE57B /* InterfaceController.swift */; };
+		A742AD9A1E6A991500DEE57B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742AD991E6A991500DEE57B /* ExtensionDelegate.swift */; };
+		A742AD9C1E6A991500DEE57B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742AD9B1E6A991500DEE57B /* NotificationController.swift */; };
+		A742AD9E1E6A991500DEE57B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742AD9D1E6A991500DEE57B /* ComplicationController.swift */; };
+		A742ADA01E6A991500DEE57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A742AD9F1E6A991500DEE57B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A742AD831E6A991500DEE57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A742AD671E6A991500DEE57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A742AD801E6A991500DEE57B;
+			remoteInfo = "BookFilmShows WatchKit App";
+		};
+		A742AD921E6A991500DEE57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A742AD671E6A991500DEE57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A742AD8F1E6A991500DEE57B;
+			remoteInfo = "BookFilmShows WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A742ADA71E6A991500DEE57B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A742AD911E6A991500DEE57B /* BookFilmShows WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A742ADAB1E6A991500DEE57B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A742AD821E6A991500DEE57B /* BookFilmShows WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A742AD6F1E6A991500DEE57B /* BookFilmShows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookFilmShows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A742AD721E6A991500DEE57B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A742AD741E6A991500DEE57B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A742AD771E6A991500DEE57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A742AD791E6A991500DEE57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A742AD7C1E6A991500DEE57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A742AD7E1E6A991500DEE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A742AD811E6A991500DEE57B /* BookFilmShows WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BookFilmShows WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A742AD871E6A991500DEE57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A742AD891E6A991500DEE57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A742AD8B1E6A991500DEE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A742AD901E6A991500DEE57B /* BookFilmShows WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BookFilmShows WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A742AD971E6A991500DEE57B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A742AD991E6A991500DEE57B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A742AD9B1E6A991500DEE57B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A742AD9D1E6A991500DEE57B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A742AD9F1E6A991500DEE57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A742ADA11E6A991500DEE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A742AD6C1E6A991500DEE57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A742AD8D1E6A991500DEE57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A742AD661E6A991500DEE57B = {
+			isa = PBXGroup;
+			children = (
+				A742AD711E6A991500DEE57B /* BookFilmShows */,
+				A742AD851E6A991500DEE57B /* BookFilmShows WatchKit App */,
+				A742AD941E6A991500DEE57B /* BookFilmShows WatchKit Extension */,
+				A742AD701E6A991500DEE57B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A742AD701E6A991500DEE57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A742AD6F1E6A991500DEE57B /* BookFilmShows.app */,
+				A742AD811E6A991500DEE57B /* BookFilmShows WatchKit App.app */,
+				A742AD901E6A991500DEE57B /* BookFilmShows WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A742AD711E6A991500DEE57B /* BookFilmShows */ = {
+			isa = PBXGroup;
+			children = (
+				A742AD721E6A991500DEE57B /* AppDelegate.swift */,
+				A742AD741E6A991500DEE57B /* ViewController.swift */,
+				A742AD761E6A991500DEE57B /* Main.storyboard */,
+				A742AD791E6A991500DEE57B /* Assets.xcassets */,
+				A742AD7B1E6A991500DEE57B /* LaunchScreen.storyboard */,
+				A742AD7E1E6A991500DEE57B /* Info.plist */,
+			);
+			path = BookFilmShows;
+			sourceTree = "<group>";
+		};
+		A742AD851E6A991500DEE57B /* BookFilmShows WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A742AD861E6A991500DEE57B /* Interface.storyboard */,
+				A742AD891E6A991500DEE57B /* Assets.xcassets */,
+				A742AD8B1E6A991500DEE57B /* Info.plist */,
+			);
+			path = "BookFilmShows WatchKit App";
+			sourceTree = "<group>";
+		};
+		A742AD941E6A991500DEE57B /* BookFilmShows WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A742AD971E6A991500DEE57B /* InterfaceController.swift */,
+				A742AD991E6A991500DEE57B /* ExtensionDelegate.swift */,
+				A742AD9B1E6A991500DEE57B /* NotificationController.swift */,
+				A742AD9D1E6A991500DEE57B /* ComplicationController.swift */,
+				A742AD9F1E6A991500DEE57B /* Assets.xcassets */,
+				A742ADA11E6A991500DEE57B /* Info.plist */,
+			);
+			path = "BookFilmShows WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A742AD6E1E6A991500DEE57B /* BookFilmShows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A742ADAC1E6A991500DEE57B /* Build configuration list for PBXNativeTarget "BookFilmShows" */;
+			buildPhases = (
+				A742AD6B1E6A991500DEE57B /* Sources */,
+				A742AD6C1E6A991500DEE57B /* Frameworks */,
+				A742AD6D1E6A991500DEE57B /* Resources */,
+				A742ADAB1E6A991500DEE57B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A742AD841E6A991500DEE57B /* PBXTargetDependency */,
+			);
+			name = BookFilmShows;
+			productName = BookFilmShows;
+			productReference = A742AD6F1E6A991500DEE57B /* BookFilmShows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A742AD801E6A991500DEE57B /* BookFilmShows WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A742ADA81E6A991500DEE57B /* Build configuration list for PBXNativeTarget "BookFilmShows WatchKit App" */;
+			buildPhases = (
+				A742AD7F1E6A991500DEE57B /* Resources */,
+				A742ADA71E6A991500DEE57B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A742AD931E6A991500DEE57B /* PBXTargetDependency */,
+			);
+			name = "BookFilmShows WatchKit App";
+			productName = "BookFilmShows WatchKit App";
+			productReference = A742AD811E6A991500DEE57B /* BookFilmShows WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A742AD8F1E6A991500DEE57B /* BookFilmShows WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A742ADA41E6A991500DEE57B /* Build configuration list for PBXNativeTarget "BookFilmShows WatchKit Extension" */;
+			buildPhases = (
+				A742AD8C1E6A991500DEE57B /* Sources */,
+				A742AD8D1E6A991500DEE57B /* Frameworks */,
+				A742AD8E1E6A991500DEE57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BookFilmShows WatchKit Extension";
+			productName = "BookFilmShows WatchKit Extension";
+			productReference = A742AD901E6A991500DEE57B /* BookFilmShows WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A742AD671E6A991500DEE57B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tringapps;
+				TargetAttributes = {
+					A742AD6E1E6A991500DEE57B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A742AD801E6A991500DEE57B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A742AD8F1E6A991500DEE57B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A742AD6A1E6A991500DEE57B /* Build configuration list for PBXProject "BookFilmShows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A742AD661E6A991500DEE57B;
+			productRefGroup = A742AD701E6A991500DEE57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A742AD6E1E6A991500DEE57B /* BookFilmShows */,
+				A742AD801E6A991500DEE57B /* BookFilmShows WatchKit App */,
+				A742AD8F1E6A991500DEE57B /* BookFilmShows WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A742AD6D1E6A991500DEE57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A742AD7D1E6A991500DEE57B /* LaunchScreen.storyboard in Resources */,
+				A742AD7A1E6A991500DEE57B /* Assets.xcassets in Resources */,
+				A742AD781E6A991500DEE57B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A742AD7F1E6A991500DEE57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A742AD8A1E6A991500DEE57B /* Assets.xcassets in Resources */,
+				A742AD881E6A991500DEE57B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A742AD8E1E6A991500DEE57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A742ADA01E6A991500DEE57B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A742AD6B1E6A991500DEE57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A742AD751E6A991500DEE57B /* ViewController.swift in Sources */,
+				A742AD731E6A991500DEE57B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A742AD8C1E6A991500DEE57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A742AD9C1E6A991500DEE57B /* NotificationController.swift in Sources */,
+				A742AD9E1E6A991500DEE57B /* ComplicationController.swift in Sources */,
+				A742AD9A1E6A991500DEE57B /* ExtensionDelegate.swift in Sources */,
+				A742AD981E6A991500DEE57B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A742AD841E6A991500DEE57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A742AD801E6A991500DEE57B /* BookFilmShows WatchKit App */;
+			targetProxy = A742AD831E6A991500DEE57B /* PBXContainerItemProxy */;
+		};
+		A742AD931E6A991500DEE57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A742AD8F1E6A991500DEE57B /* BookFilmShows WatchKit Extension */;
+			targetProxy = A742AD921E6A991500DEE57B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A742AD761E6A991500DEE57B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A742AD771E6A991500DEE57B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A742AD7B1E6A991500DEE57B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A742AD7C1E6A991500DEE57B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A742AD861E6A991500DEE57B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A742AD871E6A991500DEE57B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A742ADA21E6A991500DEE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A742ADA31E6A991500DEE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A742ADA51E6A991500DEE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "BookFilmShows WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.BookFilmShows.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A742ADA61E6A991500DEE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "BookFilmShows WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.BookFilmShows.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A742ADA91E6A991500DEE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = BookFilmShows_WatchKit_Extension;
+				INFOPLIST_FILE = "BookFilmShows WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.BookFilmShows.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A742ADAA1E6A991500DEE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = BookFilmShows_WatchKit_Extension;
+				INFOPLIST_FILE = "BookFilmShows WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.BookFilmShows.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A742ADAD1E6A991500DEE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookFilmShows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.BookFilmShows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A742ADAE1E6A991500DEE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookFilmShows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.BookFilmShows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A742AD6A1E6A991500DEE57B /* Build configuration list for PBXProject "BookFilmShows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A742ADA21E6A991500DEE57B /* Debug */,
+				A742ADA31E6A991500DEE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A742ADA41E6A991500DEE57B /* Build configuration list for PBXNativeTarget "BookFilmShows WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A742ADA51E6A991500DEE57B /* Debug */,
+				A742ADA61E6A991500DEE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A742ADA81E6A991500DEE57B /* Build configuration list for PBXNativeTarget "BookFilmShows WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A742ADA91E6A991500DEE57B /* Debug */,
+				A742ADAA1E6A991500DEE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A742ADAC1E6A991500DEE57B /* Build configuration list for PBXNativeTarget "BookFilmShows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A742ADAD1E6A991500DEE57B /* Debug */,
+				A742ADAE1E6A991500DEE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A742AD671E6A991500DEE57B /* Project object */;
+}
